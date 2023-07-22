@@ -7,7 +7,7 @@ function checkCredentials(event) {
 
 	// Kiểm tra nếu tên đăng nhập là "Hung" và mật khẩu là "123" thì hiển thị thông báo đăng nhập thành công
 	if (username === "Hung" && password === "123") {
-	  window.location.href="index.html"
+	  window.location.href="https://hungiot.github.io/Personal/"
 	} else {
 	  document.getElementById("message").textContent = "username or password is incorrect, please try again!";
 	}
